@@ -1,3 +1,6 @@
+"""Add functionality to a class."""
+
+
 class AccountP(object):
     def __init__(self, name, account_number, initial_amount):
         self._name = name

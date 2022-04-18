@@ -1,3 +1,6 @@
+"""Add a data attribute to a class."""
+
+
 class Account(object):
     def __init__(self, name, account_number, initial_amount):
         self._name = name
